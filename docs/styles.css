@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+/* body{
+  font-family: "Times New Roman";
+} */
+.empty{
+  width: 90%;
+  text-align: center;
+  font-size: 46px;
+  color: grey;
+  list-style-type: none;
+  margin-top: 10%;
+}
+
+.checked{
+  text-decoration: line-through;
+  color: grey;
+}
+.delete-icon-color{
+  color: red;
+}
+#saveButton{
+  align-self: flex-end;
+}
+.button-container{
+  display: flex;
+  justify-content: space-between;
+}
+.heading{
+  font-size: 40px;
+  text-align: center;
+  margin:20px 0px;
+}
+.heading2{
+  font-size: 28px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+.task-text{
+  font-weight: 400;
+}
+.user-input{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #e4e7eb;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.user-input:focus{
+  font-weight: 500;
+}
+.add-button{
+  font-size: 20px;
+  padding: 5px 15px;
+  background-color: #008CBA;
+  border: none;
+  border-radius: 6px;
+  font-weight: 400;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 4%;
+}
+.bg-container{
+  height: 100vh;
+  margin: 15px;
+  background-color: #f9fbfe;
+}
+.todo-items-container{
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 0px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.todo-item-container{
+  width: 95%;
+  margin-bottom: 20px;
+}
+.checkbox-input{
+  height: 20px;
+  width: 20px;
+  margin-right: 15px;
+  margin-top: 15px;
+  accent-color: #b30000;
+}
+.label-container{
+  width: 100%;
+  background-color: #e6ffff;
+  border-left: 5px solid #009999;
+  border-radius: 5px;
+  padding: 6px;
+  transition: 1s;
+}
+.label{
+  font-size: 17px;
+  font-weight: 700;
+  width: 90%;
+  margin-left: 15px;
+  align-self: center;
+  overflow: scroll;
+}
+.delete-icon-container{
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+.delete-icon{
+  font-size: 20px;
+  margin: 5px;
+  font-weight: 500;
+  transition: 1s;
+}
+.delete-icon:hover {
+  color: red;
+}
